@@ -44,7 +44,7 @@ const extractValues = async (rawData) => {
 
 const writeToCsv = (fields, rows) => {
   try {
-    const opts = { fields: fields, quote: "", header: true}
+    const opts = { fields: fields, quote: "\"", header: true}
     const csv = json2csv(rows, opts)
     console.log(csv)
   }
