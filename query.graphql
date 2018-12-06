@@ -1,0 +1,19 @@
+query
+{
+  repository(owner: "ethereum", name: "go-ethereum") {
+    labels(first: 10) {
+      nodes {
+        ... on Label {
+          name
+          open_issues: issues(states: OPEN) {
+            totalCount
+          }
+          closed_issues: issues(states: CLOSED) {
+            totalCount
+          }
+          color
+        }
+      }
+    }
+  }
+}

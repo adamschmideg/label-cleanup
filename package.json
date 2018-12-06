@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "json2csv": "^4.2.1",
+    "node-github-graphql": "^0.2.7"
+  }
+}
