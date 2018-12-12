@@ -1,0 +1,4 @@
+[
+  {"name": "type:question", "color": "cc317c", "aliases": ["question"]},
+  {"name": "status:wontfix", "color": "ffffff", "aliases": ["wontfix"]}
+]
